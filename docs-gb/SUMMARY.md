@@ -60,9 +60,8 @@
     * [Create image with Dockerfile](wrappers/python/python_wrapping_docker.md)
     * [Seldon Python server configuration](wrappers/python/python_server.md)
     * [Calling the Seldon API with Seldon Python client](wrappers/python/seldon_client.md)
-    * [\[Python API reference\]](configuration/wrappers-and-sdks/python-language-wrapper/python-api-reference.md)
     * [Development Tips](wrappers/python/developer_notes.md)
-  * [\[Go Language Wrapper\]](configuration/wrappers-and-sdks/go-language-wrapper.md)
+  * [Go Language Wrapper](configuration/wrappers-and-sdks/go-language-wrapper.md)
   * [Java Language Wrapper](wrappers/java.md)
   * [Nodejs Language Wrapper](wrappers/nodejs.md)
   * [C++ Language Wrapper](wrappers/cpp.md)
@@ -209,7 +208,8 @@
               spec: wrapper
         ```
 * [Release Highlights](reference/release-highlights/README.md)
-  * [Releases 1.8.0 and later](reference/release-highlights/later-releases.md)
+  * [Release 1.19.0 Highlights](reference/release-highlights/release-1.19.0.md)
+  * [Releases 1.8 - 1.18](reference/release-highlights/later-releases.md)
   * [Release 1.7.0 Hightlights](reference/release-highlights/release-1.7.0.md)
   * [Release 1.6.0 Hightlights](reference/release-highlights/release-1.6.0.md)
   * [Release 1.5.0 Hightlights](reference/release-highlights/release-1.5.0.md)
