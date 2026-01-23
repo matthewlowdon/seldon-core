@@ -97,7 +97,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 Markdown
-3.10
+3.10.1
 BSD-3-Clause
 BSD 3-Clause License
 
@@ -220,7 +220,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 Werkzeug
-3.1.4
+3.1.5
 BSD-3-Clause
 Copyright 2007 Pallets
 
@@ -2588,8 +2588,8 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
 
 gunicorn
-23.0.0
-MIT License
+24.0.0
+MIT
 2009-2024 (c) Benoît Chesneau <benoitc@gunicorn.org>
 2009-2015 (c) Paul J. Davis <paul.joseph.davis@gmail.com>
 
@@ -2725,7 +2725,7 @@ Apache Software License
 UNKNOWN
 
 jsonschema
-4.25.1
+4.26.0
 MIT
 Copyright (c) 2013 Julian Berman
 
@@ -2773,7 +2773,7 @@ THE SOFTWARE.
 
 
 keras
-3.13.0
+3.13.1
 Apache License 2.0
 UNKNOWN
 
@@ -4778,15 +4778,15 @@ Apache-2.0
 
 
 packaging
-25.0
-Apache Software License; BSD License
+26.0
+Apache-2.0 OR BSD-2-Clause
 This software is made available under the terms of *either* of the licenses
 found in LICENSE.APACHE or LICENSE.BSD. Contributions to this software is made
 under the terms of *both* these licenses.
 
 
 prometheus_client
-0.23.1
+0.24.1
 Apache-2.0 AND BSD-2-Clause
                                  Apache License
                            Version 2.0, January 2004
@@ -5029,8 +5029,8 @@ support library is itself covered by the above license.
 
 
 pycparser
-2.23
-BSD License
+3.0
+BSD-3-Clause
 pycparser -- A C parser in Python
 
 Copyright (c) 2008-2022, Eli Bendersky
@@ -6702,7 +6702,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 
 urllib3
-2.6.2
+2.6.3
 MIT
 MIT License
 
