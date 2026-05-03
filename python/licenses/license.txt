@@ -1,5 +1,5 @@
 Flask
-3.1.2
+3.1.3
 BSD-3-Clause
 Copyright 2010 Pallets
 
@@ -97,7 +97,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 Markdown
-3.10.1
+3.10.2
 BSD-3-Clause
 BSD 3-Clause License
 
@@ -190,8 +190,8 @@ SOFTWARE.
 
 
 Pygments
-2.19.2
-BSD License
+2.20.0
+BSD-2-Clause
 Copyright (c) 2006-2022 by the respective authors (see AUTHORS file).
 All rights reserved.
 
@@ -220,7 +220,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 Werkzeug
-3.1.5
+3.1.8
 BSD-3-Clause
 Copyright 2007 Pallets
 
@@ -253,7 +253,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 absl-py
-2.3.1
+2.4.0
 Apache-2.0
 
                                  Apache License
@@ -529,7 +529,7 @@ Agreement.
 
 
 attrs
-25.4.0
+26.1.0
 MIT
 The MIT License (MIT)
 
@@ -580,7 +580,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 certifi
-2026.1.4
+2026.4.22
 Mozilla Public License 2.0 (MPL 2.0)
 This package contains a modified version of ca-bundle.crt:
 
@@ -633,7 +633,7 @@ documentation is licensed as follows:
 
 
 charset-normalizer
-3.4.4
+3.4.7
 MIT
 MIT License
 
@@ -659,7 +659,7 @@ SOFTWARE.
 
 
 click
-8.3.1
+8.3.3
 BSD-3-Clause
 Copyright 2014 Pallets
 
@@ -692,7 +692,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 cryptography
-46.0.3
+47.0.0
 Apache-2.0 OR BSD-3-Clause
 This software is made available under the terms of *either* of the licenses
 found in LICENSE.APACHE or LICENSE.BSD. Contributions to cryptography are made
@@ -1152,8 +1152,8 @@ Apache Software License
 
 
 grpcio
-1.76.0
-Apache Software License
+1.80.0
+Apache-2.0
 
                                  Apache License
                            Version 2.0, January 2004
@@ -1359,6 +1359,16 @@ Apache Software License
 
 -----------------------------------------------------------
 
+Following applies to:
+./src/objective-c/!ProtoCompiler-gRPCCppPlugin.podspec
+./src/objective-c/!ProtoCompiler-gRPCPlugin.podspec
+./src/objective-c/!ProtoCompiler.podspec
+./src/objective-c/BoringSSL-GRPC.podspec
+./templates/src/objective-c/!ProtoCompiler-gRPCCppPlugin.podspec.inja
+./templates/src/objective-c/!ProtoCompiler-gRPCPlugin.podspec.inja
+./templates/src/objective-c/!ProtoCompiler.podspec.inja
+./templates/src/objective-c/BoringSSL-GRPC.podspec.template
+
 BSD 3-Clause License
 
 Copyright 2016, Google Inc.
@@ -1390,6 +1400,9 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 THE POSSIBILITY OF SUCH DAMAGE.
 
 -----------------------------------------------------------
+
+Following applies to:
+./etc/roots.pem
 
 Mozilla Public License Version 2.0
 ==================================
@@ -2588,9 +2601,9 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
 
 gunicorn
-24.0.0
+25.3.0
 MIT
-2009-2024 (c) Benoît Chesneau <benoitc@gunicorn.org>
+2009-2026 (c) Benoît Chesneau <benoitc@gunicorn.org>
 2009-2015 (c) Paul J. Davis <paul.joseph.davis@gmail.com>
 
 Permission is hereby granted, free of charge, to any person
@@ -2616,7 +2629,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 
 h5py
-3.15.1
+3.16.0
 BSD-3-Clause
 Copyright (c) 2008 Andrew Collette and contributors
 All rights reserved.
@@ -2651,11 +2664,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 idna
-3.11
+3.13
 BSD-3-Clause
 BSD 3-Clause License
 
-Copyright (c) 2013-2025, Kim Davies and contributors.
+Copyright (c) 2013-2026, Kim Davies and contributors.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -2773,7 +2786,7 @@ THE SOFTWARE.
 
 
 keras
-3.13.1
+3.14.0
 Apache License 2.0
 UNKNOWN
 
@@ -4571,7 +4584,7 @@ SOFTWARE.
 
 
 optree
-0.18.0
+0.19.0
 Apache-2.0
 
                                  Apache License
@@ -4778,7 +4791,7 @@ Apache-2.0
 
 
 packaging
-26.0
+26.2
 Apache-2.0 OR BSD-2-Clause
 This software is made available under the terms of *either* of the licenses
 found in LICENSE.APACHE or LICENSE.BSD. Contributions to this software is made
@@ -4786,7 +4799,7 @@ under the terms of *both* these licenses.
 
 
 prometheus_client
-0.24.1
+0.25.0
 Apache-2.0 AND BSD-2-Clause
                                  Apache License
                            Version 2.0, January 2004
@@ -5085,7 +5098,7 @@ THE SOFTWARE.
 
 
 requests
-2.32.5
+2.33.1
 Apache Software License
 
                                  Apache License
@@ -5265,7 +5278,7 @@ Apache Software License
 
 
 rich
-14.2.0
+15.0.0
 MIT License
 Copyright (c) 2020 Will McGugan
 
@@ -5313,7 +5326,7 @@ THE SOFTWARE.
 
 
 seldon-core
-1.19.0.dev0
+1.20.0.dev0
 Business Source License 1.1
 Parameters
 
@@ -6211,7 +6224,7 @@ Apache License 2.0
 UNKNOWN
 
 tornado
-6.5.4
+6.5.5
 Apache Software License
 
                                  Apache License
@@ -6728,33 +6741,9 @@ SOFTWARE.
 
 
 wrapt
-2.0.1
-Copyright (c) 2013-2025, Graham Dumpleton
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
-
-Copyright (c) 2013-2025, Graham Dumpleton
+2.1.2
+BSD-2-Clause
+Copyright (c) 2013-2026, Graham Dumpleton
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
